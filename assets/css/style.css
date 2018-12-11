@@ -1,0 +1,172 @@
+body{
+	background-color: #f1f1f1;
+}
+
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (width: 1200px and width: 1194px){
+	.container {
+		width: 1300px !important;
+	}
+}
+@media(width: 1194px and width: 768px){
+	.container{
+		width: 1160px !important;
+	}
+}
+@media (width: 768px and width: 299px){
+	.container{
+		width: 1200px !important;
+	}
+}
+@media (width: 300px){
+	.container {
+		width: 900px !important;
+	}
+}
+body{
+	font-family: Helvetica, Arial, sans-serif;font-size 1rem; line-height: 1.5rem;}
+
+.full-width {
+	width: 100%;
+}
+.quarter-width {
+	width: 90%;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.mauto{
+	margin: 17px;
+}
+.px2 {
+	padding-right: 2rem;
+	padding-left: 2rem;
+}
+.mt1 {
+	margin-top: 1rem;
+}
+.mb1 {
+	margin-bottom: 7rem;
+}
+.clearfix {
+  &:before, &:after { content: " "; display: table; }
+  &:after { clear: both; }
+}
+
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.t1{
+	top:1px;
+}
+.r0{
+	right:0;
+}
+
+.bg-white{
+	background-color: white;
+}
+.bottom-dotted{
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+}
+.border-color-light-gray{
+	border-color: #cccc;
+}
+
+.div-dashed-line{
+  font-size: 1.125rem;
+  line-height: 1.7rem;
+  letter-spacing: 1.5px;
+  padding-bottom: 1rem;
+  margin:0;
+}
+
+small, .small, .f5 {
+  font-size: .75rem;
+  line-height: 1.5rem;
+}
+
+.main-section-header{
+	height:100px;
+	background-color:#e6555c;
+	margin:0px 0px 0px 0px;
+}
+
+.main-section-box{
+	background-color:#ffffff;
+	margin:5px 0px 20px 0px;
+}
+.btn-accept{
+	background-color: white;
+    border-radius: 28px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+    color: lightgreen;
+    font-size: 15px;
+    padding: 12px 40px;
+}
+
+.btn-reject{
+	background-color: white;
+    border-radius: 28px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+    color: palevioletred;
+    font-size: 15px;
+    padding: 12px 40px;
+}
+
+.header-text{
+	font-size:17px;
+	color: #f7f3f2;
+}
+
+.text-city{
+	font-size:15px;
+}
+.text-state{
+	font-size:11px;
+}
+
+.text-home-icon{
+	font-size: 16px;
+    margin-top: 17px;
+	font-weight: bold;
+}
+
+.price-value{
+	font-size: 19px;
+}
+.price-text{
+	font-size:20px;
+}
+
+.fa-search{
+	color:#fb9ca0;
+	font-size:20px !important;
+	margin-top:15px;
+}
+
+.search-text{
+	color:#fb9ca0;
+	font-size: 17px;
+    margin-left: 5px;
+}
+
+
+
+
